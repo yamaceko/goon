@@ -1,10 +1,14 @@
-package main
+package calculette
 
-import "fmt"
+import (
+	"add"
+	"fmt"
+)
 
-func main(){
+func main() {
 
 	fmt.Print("hello word")
-	fmt.Println("first")
-
+	//fmt.Println("first")
+	var e = add(8, 5)
+	fmt.Printf("%d", e)
 }
